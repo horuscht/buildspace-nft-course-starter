@@ -132,6 +132,7 @@ const App = () => {
 
   useEffect(() => {
     checkIfWalletIsConnected(); 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   
   const [mintNumber,setMintNumber] = useState(0);
